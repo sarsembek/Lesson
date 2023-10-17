@@ -1,13 +1,10 @@
-.text {
-    font-size: 55px;
-}
-
-.class {
-    background: green;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
 body {
-    background: brown;
+    background: lightcoral;
+}
+.about-me {
+    background: aliceblue;
+    padding: 10px;
+    border: 5px solid blueviolet;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px white;
 }
