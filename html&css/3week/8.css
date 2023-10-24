@@ -1,0 +1,20 @@
+table {
+    background: gainsboro;
+    border: 1px solid black;
+    border-spacing: 5px;
+}
+
+th {
+    background: white;
+    border: 1px solid black;
+    padding: 0.5rem;
+}
+
+td {
+    border: 1px solid black;
+    padding: 0.5rem;
+}
+
+.phone {
+    background: burlywood;
+}

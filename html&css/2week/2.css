@@ -1,0 +1,33 @@
+body {
+    background: gainsboro;
+    margin: 0;
+    height: 100vh!important;
+}
+
+.wrapper {
+    position: absolute;
+    top: 50%; 
+    right: 50%;
+    transform: translate(50%,-50%);
+}
+
+#form {
+    align-items: center;
+    background: wheat;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: 3px solid whitesmoke;
+    box-shadow: 5px 5px 5px gray;
+    width: auto;
+}
+
+.name {
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+#btn {
+    display: flex;
+    justify-content: center;
+}
