@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+body{
+    overflow-x: auto;
+}
+
+p {
+    border: 2px solid #000;
+    outline: 5px #004500 dashed;
+    outline-offset: 5px;
+    text-align: left;
+    /* text-decoration: overline red wavy 1px; */
+    text-transform: capitalize;
+    text-indent: 50px;
+    letter-spacing: 3px;
+    line-height: 1;
+    word-spacing: 5px;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-variant: small-caps;
+    font-size: 100px;
+    background: red;
+    transition: all 1.1s ease-in;
+    width: 50%;
+    height: 50vh;
+    overflow-x: auto;
+}
+
+p:hover {
+    background: yellow;
+    text-decoration: underline;
+}
