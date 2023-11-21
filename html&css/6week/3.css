@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
 
 body{
-    overflow-x: auto;
+    overflow-y: auto;
 }
 
 p {
@@ -23,9 +23,9 @@ p {
     font-size: 100px;
     background: red;
     transition: all 1.1s ease-in;
-    width: 50%;
+    width: 100%;
     height: 50vh;
-    overflow-x: auto;
+    overflow-y: auto;
 }
 
 p:hover {
