@@ -1,0 +1,48 @@
+.navbar-brand {
+    color: #FFF!important;
+    font-size: 2rem!important;
+    padding: 2rem 1.25rem!important;
+    background: rgb(255, 0, 111);
+    border-radius: 0 0 2rem 2rem;
+    -moz-box-shadow: 3px 3px 10px 3px #ddd;
+    box-shadow: 3px 3px 10px 3px #ddd;
+}
+
+.container-fluid {
+    min-height: 4rem;
+}
+
+.main {
+
+    min-height: 60vh!important;
+    display: flex!important;
+}
+
+.cart {
+    min-height: 60vh!important;
+}
+
+.img{
+    min-height: 50vh!important;
+    width: 30vw!important;
+    object-fit: cover!important;
+    border-radius: 1rem;
+    aspect-ratio: 4/3;
+}
+
+p {
+    margin-top: 1rem!important;
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    .main {
+        display: block!important;
+    }
+    .img {
+        width: 100%!important;
+    }
+    .cart {
+        margin-right: 1rem!important;
+    }
+}
