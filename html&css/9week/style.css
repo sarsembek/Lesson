@@ -1,0 +1,27 @@
+.main-header, .menu-left {
+  background-color: rgb(255, 0, 0);
+  width: 100vw;
+  height: 50vh;
+}
+
+.menu-left {
+  border: 5px solid yellow;
+  border-radius: 15px;
+}
+
+.menu-right {
+  background-color: #878f99;
+  width: 100%;
+  height: 25%;
+  border: 3px solid pink;
+  border-radius: 50px;
+}
+
+.text {
+  color: red;
+  font-size: 25px;
+  font-weight: bold;
+  border: 1px solid blue;
+  display: flex;
+  justify-content: center;
+}/*# sourceMappingURL=style.css.map */

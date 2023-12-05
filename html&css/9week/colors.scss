@@ -1,0 +1,26 @@
+$primary_1: rgb(255, 0, 0);
+$primary_2: #b2ad7f;
+$primary_3: #878f99;
+
+@mixin important-text {
+    color: red;
+    font-size: 25px;
+    font-weight: bold;
+    border: 1px solid blue;
+}
+
+@mixin center {
+    display: flex;
+    justify-content: center;
+}
+
+@mixin bordered($color: pink, $width: 3px, $radius: 50px) {
+    border: $width solid $color;
+    border-radius: $radius;
+}
+
+@mixin transform($property) {
+    -webkit-transform: $property;
+    -ms-transform: $property;
+    transform: $property;
+}
