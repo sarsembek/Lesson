@@ -1,6 +1,9 @@
-$primary_1: rgb(255, 0, 0);
+@import url('https://fonts.googleapis.com/css2?family=Rethink+Sans&display=swap');
+
+$primary_1: #878f01;
 $primary_2: #b2ad7f;
 $primary_3: #878f99;
+$font: 'Rethink Sans', sans-serif;
 
 @mixin important-text {
     color: red;

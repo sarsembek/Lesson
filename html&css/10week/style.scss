@@ -1,0 +1,74 @@
+@import "animation";
+body{
+    display: inline;
+}
+.content {
+    background-image: url("https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg");
+}
+.grid {
+    display: grid;
+}
+
+.p {
+    background-color: #000;
+    color: aqua;
+    order: 3;
+    height: 25vh;
+    animation-name: example;
+    animation-duration: 5s;    
+}
+
+.h {
+    color: violet;
+    order: 1;
+}
+
+.d {
+    color: brown;
+    order: 2;
+}
+
+.btn {
+    animation: wiggle 2s linear infinite;
+    display: inline;
+}
+
+.card {
+    margin: 100px;
+    width: min-content;
+    padding: 100px;
+    border-radius: 1rem;
+    background: #f0f0f0;
+    display: block;
+    animation: shadows 5s ease-in infinite alternate;
+}
+.title {
+    display: inline-block;
+    font-size: 2rem;
+}
+
+.title span {
+    display: inline-block;
+    animation: moveUp 2s ease infinite;
+}
+
+.title span:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.title span:nth-child(2) {
+    animation-delay: 0.4s;
+}
+
+.title span:nth-child(3) {
+    animation-delay: 0.8s;
+}
+
+.title span:nth-child(4) {
+    animation-delay: 1.2s;
+}
+
+.title span:nth-child(5) {
+    animation-delay: 1.6s;
+}
+

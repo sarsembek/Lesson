@@ -1,4 +1,9 @@
 @import "colors";
+
+body {
+  font-family: $font;
+}
+
 .main-header {
   background-color: $primary_1;
   width: 100vw;
@@ -6,7 +11,7 @@
 }
 
 .menu-left {
-  @extend .main-header;
+  @extend .menu-right;
   @include bordered(yellow, 5px, 15px);
 }
 
@@ -17,13 +22,17 @@
   @include bordered;  
 }
 
-// .main-header {
-//   p {
-//     color: $primary_2;
-//   }
-// }
+.main-header {
+  p {
+    color: $primary_2;
+  }
+  a {
+    color: $primary_3;
+  }
+}
 
 .text {
   @include important-text;
   @include center;
+  @include transform(rotate(15deg));
 }

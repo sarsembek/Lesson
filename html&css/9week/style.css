@@ -1,5 +1,10 @@
-.main-header, .menu-left {
-  background-color: rgb(255, 0, 0);
+@import url("https://fonts.googleapis.com/css2?family=Rethink+Sans&display=swap");
+body {
+  font-family: "Rethink Sans", sans-serif;
+}
+
+.main-header {
+  background-color: #878f01;
   width: 100vw;
   height: 50vh;
 }
@@ -9,12 +14,19 @@
   border-radius: 15px;
 }
 
-.menu-right {
+.menu-right, .menu-left {
   background-color: #878f99;
   width: 100%;
   height: 25%;
   border: 3px solid pink;
   border-radius: 50px;
+}
+
+.main-header p {
+  color: #b2ad7f;
+}
+.main-header a {
+  color: #878f99;
 }
 
 .text {
@@ -24,4 +36,5 @@
   border: 1px solid blue;
   display: flex;
   justify-content: center;
+  transform: rotate(15deg);
 }/*# sourceMappingURL=style.css.map */
