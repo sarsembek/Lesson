@@ -1,0 +1,57 @@
+.content {
+    display: flex;
+    /* background-image: url("https://tpc.googlesyndication.com/simgad/12651437197005483285?sqp=4sqPyQQrQikqJwhfEAEdAAC0QiABKAEwCTgDQPCTCUgAUAFYAWBfcAJ4AcUBLbKdPg&rs=AOga4qmxohmBZRXInoG-Tg9VKCm6tvLftA"); */
+    /* background-image: conic-gradient(red, yellow, green, blue, black);
+    border-radius: 50%; */
+    height: 100vh;
+    width: 50vw;
+    background-repeat: no-repeat;
+    background-position: right bot;
+    transition: all 2s linear;
+    font-family: myFont;
+}
+.content:hover {
+    transform: rotate(360deg);
+}
+.btn {
+    display: flex;
+    padding: 1rem 2rem;
+    background-color: blueviolet;
+    transition: all 1s ease-out;
+    background-image: inherit;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+    background-color: transparent;
+}
+
+@font-face {
+    font-family: myFont;
+    src: url(Inter-Regular.ttf);
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+ 
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+img {
+  filter:contrast(50%)
+}
